@@ -36,12 +36,12 @@ This research was driven by a desire to enhance understanding of market behavior
 
 Data source: [www.databento.com](https://www.databento.com)
 
-# Here are some images from the presentation that represent the distribution of NASDAQ: 
+## Here are some images from the presentation that represent the distribution of NASDAQ: 
 
 ![Project screenshot](src/img/Picture%201.png)
 
 This is a boxplot, which quickly shows the distribution and central tendency. The colored box spans from Q1 to Q3 (the interquartile range),
 containing 50% of all RTH-session occurrences. The area from the minimum up to Q1 covers 25% of cases, and from Q3 up to the maximum
 covers the remaining 25%.
-From this, we can conclude that 75% of occurrences happen between 9:30 and 10:38. Any points beyond the “whiskers” are called “outliers”
-and represent rare events.
+<br>From this, we can conclude that 75% of occurrences happen between 9:30 and 10:38. Any points beyond the “whiskers” are called “outliers”
+and represent rare events.</br>
