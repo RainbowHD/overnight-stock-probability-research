@@ -63,7 +63,7 @@ The bar plot shows the distribution of second-touch events from the OVN High & L
 
 <div style="display: flex;">
   <div style="flex: 1; padding-right: 1em;">
-    ###Date: 2010-06-07 - 2025-02-28
+    Date: 2010-06-07 - 2025-02-28
 
     Observations: 3817
     Broken days: 3540
@@ -73,7 +73,7 @@ The bar plot shows the distribution of second-touch events from the OVN High & L
     High & Low broken: 839
   </div>
   <div style="flex: 1;">
-    ###Date: 2020-03-03 - 2025-02-28
+    Date: 2020-03-03 - 2025-02-28
 
     Observations: 1298
     Broken days: 1201
