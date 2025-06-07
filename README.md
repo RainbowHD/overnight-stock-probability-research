@@ -1,2 +1,38 @@
-# overnight-stock-probability-research
-A research project analyzing the probability of Overnight High/Low breakouts during regular trading hours (RTH) for ES and NQ futures. Examines breach frequency, timing, and gap size impact to provide quantitative insights into overnight level dynamics and improve understanding of the futures market.
+# Overnight stock probability research
+
+## Project Overview
+This research was driven by a desire to enhance understanding of market behavior through patterns observed during intraday trading. To reach a usable outcome, raw data had to be merged, cleaned, and reshaped multiple times until it became a clean, structured OHLCV dataset. This format made it possible to manipulate the data effectively and extract meaningful insights to support deeper market analysis.
+
+## Workflow Summary
+1. **Merge datasets** into one unified source.
+2. **Convert timestamps** to UTC-4 (Eastern Time).
+3. **Clean the DataFrame** by removing duplicate time rows and handling contract rollovers.
+4. **Define the overnight (OVN) session.**
+5. **Merge RTH and OVN data** into a consolidated dataset.
+6. **Calculate breaches** of overnight session levels.
+7. **Visualize insights** using pie charts, bar charts, and box plots for NQ and ES.
+
+## Research Objective
+  - Determine the distribution of Overnight High/Low level breaches during the RTH session, as well as the time- and frequency-based distribution for ES and NQ futures.
+  - Assess the probability of breaking the Overnight High/Low levels during RTH depending on the gap size. 
+
+#### Study Periods:
+  - Last 5 years: March 3, 2020 – February 28, 2025
+  - Last 15 years: June 6, 2010 – February 28, 2025
+
+## Calculation of Overnight High and Overnight Low
+
+  - Overnight High: the highest price reached between 4:00 PM and 9:29 AM New York time.
+  - Overnight Low: the lowest price reached between 4:00 PM and 9:29 AM New York time.
+
+## Mechanics of Level Breaches
+
+  - If a 1-minute candle close > Overnight High → “High broken”*
+  - If a 1-minute candle close < Overnight Low → “Low broken”*
+  - If a 1-minute candle close > Overnight High and < Overnight Low → “High & Low broken”*
+  - If no breach occurs → “None broken”
+    
+*Important note: if the session open occurs above (below) the Overnight High (Low), that is counted as a breach at 9:30 AM.
+
+Data source: [www.databento.com](https://www.databento.com)
+
