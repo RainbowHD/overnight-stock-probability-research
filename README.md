@@ -60,39 +60,33 @@ The bar plot shows the distribution of second-touch events from the OVN High & L
 
 ![Project screenshot](src/img/Picture%207.png)
 
-
-
-
-
-
 <table>
   <tr>
     <td>
 
-### Column 1 Title
+    **Column 1 content**  
+    ###Date: 2010-06-07 - 2025-02-28
 
-Date: 2010-06-07 - 2025-02-28
-
-Observations: 3817
-Broken days: 3540
-Not broken: 277
-OVN High broken: 1482
-OVN Low broken: 1219
-High & Low broken: 839
+    Observations: 3817
+    Broken days: 3540
+    Not broken: 277
+    OVN High broken: 1482
+    OVN Low broken: 1219
+    High & Low broken: 839
+    - ![Image1](path_or_url_to_image1)
 
     </td>
     <td>
 
-### Column 2 Title
+    ###Date: 2020-03-03 - 2025-02-28
 
-Date: 2020-03-03 - 2025-02-28
-
-Observations: 1298
-Broken days: 1201
-Not broken: 97
-OVN High broken: 512
-OVN Low broken: 417
-High & Low broken: 272
+    Observations: 1298
+    Broken days: 1201
+    Not broken: 97
+    OVN High broken: 512
+    OVN Low broken: 417
+    High & Low broken: 272
+    - ![Image2](path_or_url_to_image2)
 
     </td>
   </tr>
