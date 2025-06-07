@@ -45,3 +45,55 @@ containing 50% of all RTH-session occurrences. The area from the minimum up to Q
 covers the remaining 25%.
 <br>From this, we can conclude that 75% of occurrences happen between 9:30 and 10:38. Any points beyond the “whiskers” are called “outliers”
 and represent rare events.</br>
+
+![Project screenshot](src/img/Picture%202.png)
+The bar plot shows the distribution of “OVN Low” breaches, with each bar representing one minute on the x-axis. Seventy-five percent of all breaches occur between 9:30 and 10:38. The y-axis shows the number of breaches, grouped by minute, and the x-axis tick interval is set to 5 minutes.
+
+![Project screenshot](src/img/Picture%203.png)
+The bar plot shows the distribution of “OVN High” breaches, with each bar representing one minute on the x-axis. Seventy-five percent of all breaches occur between the session open at 9:30 and 10:28. The y-axis indicates the number of breaches, with the data grouped by minute. The x-axis has a tick interval of 5 minutes.
+
+![Project screenshot](src/img/Picture%204.png)
+![Project screenshot](src/img/Picture%205.png)
+
+![Project screenshot](src/img/Picture%206.png)
+The bar plot shows the distribution of second-touch events from the OVN High & Low sample.
+
+![Project screenshot](src/img/Picture%207.png)
+
+
+
+
+
+
+<table>
+  <tr>
+    <td>
+
+### Column 1 Title
+
+Date: 2010-06-07 - 2025-02-28
+
+Observations: 3817
+Broken days: 3540
+Not broken: 277
+OVN High broken: 1482
+OVN Low broken: 1219
+High & Low broken: 839
+
+    </td>
+    <td>
+
+### Column 2 Title
+
+Date: 2020-03-03 - 2025-02-28
+
+Observations: 1298
+Broken days: 1201
+Not broken: 97
+OVN High broken: 512
+OVN Low broken: 417
+High & Low broken: 272
+
+    </td>
+  </tr>
+</table>
