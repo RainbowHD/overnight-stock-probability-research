@@ -60,11 +60,9 @@ The bar plot shows the distribution of second-touch events from the OVN High & L
 
 ![Project screenshot](src/img/Picture%207.png)
 
-<table>
-  <tr>
-    <td>
 
-    **Column 1 content**  
+<div style="display: flex;">
+  <div style="flex: 1; padding-right: 1em;">
     ###Date: 2010-06-07 - 2025-02-28
 
     Observations: 3817
@@ -73,11 +71,8 @@ The bar plot shows the distribution of second-touch events from the OVN High & L
     OVN High broken: 1482
     OVN Low broken: 1219
     High & Low broken: 839
-    - ![Image1](path_or_url_to_image1)
-
-    </td>
-    <td>
-
+  </div>
+  <div style="flex: 1;">
     ###Date: 2020-03-03 - 2025-02-28
 
     Observations: 1298
@@ -86,8 +81,5 @@ The bar plot shows the distribution of second-touch events from the OVN High & L
     OVN High broken: 512
     OVN Low broken: 417
     High & Low broken: 272
-    - ![Image2](path_or_url_to_image2)
-
-    </td>
-  </tr>
-</table>
+  </div>
+</div>
