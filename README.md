@@ -1,7 +1,7 @@
 # Overnight stock probability research
 
 ## Project Overview
-This research was driven by a desire to enhance understanding of market behavior through patterns observed during intraday trading. To reach a usable outcome, raw data had to be merged, cleaned, and reshaped multiple times until it became a clean, structured OHLCV dataset. This format made it possible to manipulate the data effectively and extract meaningful insights to support deeper market analysis.
+This research was driven by a desire to enhance understanding of market behavior through patterns observed during intraday trading. To reach a usable outcome, raw data had to be merged, cleaned, and reshaped multiple times until it became a clean, structured OHLCV dataset. This format made it possible to manipulate the dataset with over 6 million rows effectively and extract meaningful insights to support deeper market analysis.
 
 ## Workflow Summary
 1. **Merge datasets** into one unified source.
